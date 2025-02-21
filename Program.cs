@@ -10,6 +10,10 @@ namespace GitHub
     {
         static void Main(string[] args)
         {
+            double x, f;
+            x = Convert.ToDouble(Console.ReadLine());
+            f = 3 * Math.Sin(x + 2);
+            Console.WriteLine(f);
         }
     }
 }
